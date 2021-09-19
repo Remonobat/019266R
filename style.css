@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}.nav{
+    display: flex;
+  padding-top: 1rem;
+  background-color: rgb(98, 255, 255);
+}
+.logo{
+    
+    width:15%;
+}
+.logo img{
+    width: 3rem;
+}
+.list{
+    width: 70%;
+}
+.list li{
+    list-style-type: none;
+    float: left;
+    padding-left: 3.5rem;
+    padding-top: .5rem;
+    font-weight: bold;
+}
+.search{
+    width: 15%;
+}
+
+.flex{
+    padding-top: 2rem;
+    display: flex;
+    
+    background-color: rgb(98, 234, 255);
+    padding-bottom: 3rem;
+}
+.para{
+    width: 40%;
+}
+.btn button{
+    height: 2rem;
+    width: 7rem;
+    padding: auto;
+    margin-left: 2rem;
+    border: 1.5px solid black;
+    border-radius: 25px;
+}
+.btn button:hover{
+    background-color: aqua;
+    font-weight: bold;
+}
+.hero img{
+    width: 500px;
+    padding-left: 5rem;
+}
+
+.our{
+    text-align: center;
+}
+.card{
+    width: 23%;
+    border: 1px solid black;
+    text-align: center;
+margin-left: 1rem;
+margin-top: .5rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.card:hover{
+    transform: scaleX(.5);
+    transition: all 7s;
+    background-color: #6adcff;
+    border-radius: 5px;
+}
+.icon i{
+    height: 1.5rem;
+    color: rgb(0, 38, 255);
+    padding: 0.5rem;;
+}
+.card img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.flex1{
+    display: flex;
+    background-color: rgb(98, 255, 255);
+}
